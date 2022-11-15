@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>
+
+<h1 class="auth">
     <font color="#ffffff">Authorization</font>
 </h1>
+
 <form action="" method="post">
     {{ form.hidden_tag() }}
-    <p>
+    <p class="input_label_email">
         <font color="#ffffff">{{ form.email.label }}</font>
+    </p>
+    <p class="input_auth">
         <br>
         {{ form.email(class="form-control", type="email") }}
         <br>
@@ -17,8 +21,10 @@
     </div>
     {% endfor %}
     </p>
-    <p><font color="#ffffff">
+    <p class="input_label_password"><font color="#ffffff">
         {{ form.password.label }}</font>
+    </p>
+    <p class="input_auth">
         <br>
         {{ form.password(class="form-control", type="password") }}
         <br>
@@ -28,8 +34,8 @@
     </div>
     {% endfor %}
     </p>
-    <p>{{ form.remember_me() }} <font color="#ffffff">{{ form.remember_me.label }}</font></p>
-    <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
+    <p class="remember_me">{{ form.remember_me() }} <font color="#ffffff">{{ form.remember_me.label }}</font></p>
+    <p class="input_auth">{{ form.submit(type="submit", class="btn btn-primary") }}</p>
     <div><font color="#ffffff">{{ message }}</font></div>
 </form>
 {% endblock %}

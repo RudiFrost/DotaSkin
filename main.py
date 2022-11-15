@@ -66,6 +66,10 @@ def enigma_set():
 def phantom_lancer_set():
     return render_template('phantom_lancer.html')
 
+@app.route('/')
+def money():
+    return redirect("/")
+
 
 class LoginForm(FlaskForm):
     email = EmailField('Email', validators=[DataRequired()])

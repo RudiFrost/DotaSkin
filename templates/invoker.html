@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="main-picture">
-    <script>
-        jQuery(document).ready(function($) {
-            $("img").hover(function() {
-                var src = this.src;
-                this.src = $(this).data("img");
-                $(this).data("img", src);
-            });
-        });
-    </script>
-    <img src="static/gifs/invoker_awa.png" data-img="static/gifs/invoker.gif" class="hero" width="300" height="700" alt="">
-</div>
+<body>
+    <img class="one_hero" src="static/gifs/invoker.gif" data-img="static/gifs/invoker.gif" width="700" height="700" alt="" style="float:left">
+
+    <h1 class="auth">Items</h1>
+    <p class="item_name">
+        <img class="item" src="static/heroes_inventory/invoker/magus_apex.png" data-img="static/heroes_inventory/invoker/magus_apex.png" alt="" style="float:left">
+        <a class="item_link" href="{{ url_for('invoker_set') }}">Magus Apex</a>
+    </p>
+    <p class="item_name">
+        <img class="item" src="static/heroes_inventory/invoker/mantle_of_blackguarg.png" data-img="static/heroes_inventory/invoker/mantle_of_blackguarg.png" alt="" style="float:left">
+        <a class="item_link" href="{{ url_for('invoker_set') }}">Mantle of blackguard Magus</a>
+    </p>
+</body>
 {% endblock %}

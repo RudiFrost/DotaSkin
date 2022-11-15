@@ -2,7 +2,6 @@ body {
 	background-color: #ecf0f1;
 	font-family: helvetica, arial, sans-serif;
 	font-size: 16px;
-	padding-top: 330px;
 }
 header {
 	width: 100%;
@@ -13,13 +12,15 @@ header {
 	top: 0;
 	overflow: hidden;
 }
-h1 {
+.label{
     font-size: 42px;
-    color: #fff;
+    color: #ff0000;;
     line-height: 230px;
     text-transform: uppercase;
-    font-weight: 100;
-}
+    padding-right: 300px;
+    }
+
+
 nav {
     position: absolute;
     bottom: 0;
@@ -28,7 +29,7 @@ nav {
     width: 100%;
     background-color: rgba(0,0,0,.1);
 }
-a {
+.main_buttons {
     color: #fff;
     display: inline-block;
     padding: 10px 15px;
@@ -42,6 +43,12 @@ a {
 .hero {
     width: 300px;
     height: 300px;
+}
+
+.one_hero{
+    width: 700px;
+    height: 700px;
+    padding-top: 270px;
 }
 
 h1 {
@@ -94,3 +101,81 @@ body {
             border-color: #494a57;
             box-shadow: 0px 0px transparent;
         }
+
+.auth{
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    color: #fff;
+    line-height: 230px;
+    text-transform: uppercase;
+    font-weight: 10;
+}
+
+.input_auth{
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    top: 0px;
+}
+
+.input_label_email{
+    text-align: center;
+    padding-right: 130px;
+    margin: 0px;
+}
+.input_label_password{
+    text-align: center;
+    padding-right: 100px;
+    margin: 0px;
+}
+
+.input_label_username{
+    text-align: center;
+    padding-right: 100px;
+    margin: 0px;
+}
+.input_label_repassword{
+    text-align: center;
+    padding-right: 45px;
+    margin: 0px;
+}
+.input_label_about{
+    text-align: center;
+    padding-right: 60px;
+    margin: 0px;
+}
+
+.remember_me{
+    text-align: center;
+    padding-right: 50px;
+}
+
+.align_sets{
+    padding-top: 300px;
+    padding-left:80px;
+}
+
+.hero{
+    padding-top: 280px;
+}
+
+.item{
+    margin-left: 60px;
+    width: 120px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.item_name{
+    margin-bottom: 80px;
+}
+
+.item_link{
+    margin-bottom: 80px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: helvetica, arial, sans-serif;
+}
+
