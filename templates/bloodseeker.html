@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script>
+    jQuery(document).ready(function($) {
+        $("img").hover(function() {
+            var src = this.src;
+            this.src = $(this).data("img");
+            $(this).data("img", src);
+        });
+    });
+</script>
+<div class="main-picture">
+    <img src="static/gifs/bloodseeker_ava.png" data-img="static/gifs/bloodseeker.gif" width="300" height="300" alt="">
+</div>
+{% endblock %}

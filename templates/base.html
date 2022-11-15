@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>All Sets</title>
+</head>
+<header>
+    <h1>THE BEST DOTA SETS</h1>
+    <nav>
+        <a href="">Sets</a>
+        <a href="/about">About</a>
+        <a href="/profile">Profile</a>
+        <a href="/contact">Contact</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('register') }}">Register</a>
+    </nav>
+</header>
+<body>
+    {% block content %}
+    <header>
+        <h1>THE BEST DOTA SETS</h1>
+        <nav>
+          <a href="{{ url_for('index') }}">Sets</a>
+          <a href="">About</a>
+          <a href="">Gallery</a>
+          <a href="">Contact</a>
+          <a href="/login"></a>
+        </nav>
+    </header>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,716 @@
+{
+    "heroes": [
+        {    
+            "invoker": {
+                "head": {
+                    "link": "https://steamcommunity.com/market/listings/570/Magus%20Apex",
+                    "price": 157
+                },
+                "shoulder": {
+                    "link": "https://steamcommunity.com/market/listings/570/Mantle%20of%20the%20Blackguard%20Magus",
+                    "price": 25
+                },
+                "back": {
+                    "link": "https://steamcommunity.com/market/listings/570/Cabalist%20of%20Dark%20Magic%20Set?filter=The%20the",
+                    "price": 4
+                },
+                "arms": {
+                    "link": "https://steamcommunity.com/market/listings/570/Bracers%20of%20Glorious%20Inspiration",
+                    "price": 4
+                },
+                "forge": {
+                    "link": "https://steamcommunity.com/market/listings/570/Familiars%20of%20Glorious%20Inspiration",
+                    "price": 62
+                },
+                "belt": {
+                    "link": "https://steamcommunity.com/market/listings/570/Vestments%20of%20the%20Blackguard%20Magus",
+                    "price": 40
+                }
+            }
+        },
+        {
+            "templar_assasin": {
+                "weapon": {
+                    "link": "https://steamcommunity.com/market/listings/570/Focal%20Resonance",
+                    "price": 400
+                },
+                "head": {
+                    "link": "https://steamcommunity.com/market/listings/570/Dreaded%20Bravo%27s%20Guise?filter=Bravo%60s",
+                    "price": 1
+                },
+                "shoulder": {
+                    "link": "https://steamcommunity.com/market/listings/570/Mantle%20of%20the%20Whispered%20Bond",
+                    "price": 128
+                },
+                "armor": {
+                    "link": "https://steamcommunity.com/market/listings/570/Redmoon%20Assassin%27s%20Secret%20Armor?filter=Assassin%60s",
+                    "price": 1
+                }
+            }
+        },
+        {
+            "puck": {
+                "head": {
+                    "link": "https://steamcommunity.com/market/listings/570/Orb%20of%20Reminiscence",
+                    "price": 20
+                },
+                "tail": {
+                    "link": "https://steamcommunity.com/market/listings/570/Merry%20Wanderer%27s%20Brush?filter=Wanderer%60s",
+                    "price": 76
+                },
+                "wings": {
+                    "link": "https://steamcommunity.com/market/listings/570/Blossom%20of%20the%20Merry%20Wanderer",
+                    "price": 14
+                }
+            }
+		},
+		{
+			"clinkz": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Lineage%20Mask%20of%20the%20Hunt%20Eternal",
+					"price": 5
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Maraxiform%27s%20Ire",
+					"price": 44
+				},
+				"units": {
+					"link": "https://steamcommunity.com/market/listings/570/Maraxiform%27s%20Fallen",
+					"price": 4
+				},
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Maraxiform%27s%20Fate",
+					"price": 12
+				},
+				"gloves": {
+					"link": "https://steamcommunity.com/market/listings/570/Lineage%20Gloves%20of%20the%20Hunt%20Eternal",
+					"price": 2
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Lineage%20Kit%20of%20the%20Hunt%20Eternal",
+					"price": 4
+				}
+			}
+		},
+		{	
+			"visage": {
+				"units": {
+					"link": "https://steamcommunity.com/market/listings/570/Tolling%20Shadows",
+					"price": 83
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Head%20of%20the%20Winged%20Harvest",
+					"price": 12
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Armor%20of%20the%20Winged%20Harvest",
+					"price": 7
+				}
+			}
+		},
+		{
+			"legion_commander": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Radiant%20Conqueror%20Weapon",
+					"price": 112
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Plume%20of%20the%20Dragon%20Guard",
+					"price": 1
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Radiant%20Conqueror%20Back",
+					"price": 1400
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Bracers%20of%20the%20Daemonfell%20Flame",
+					"price": 25
+				},
+				"legs": {
+					"link": "https://steamcommunity.com/market/listings/570/Radiant%20Conqueror%20Legs",
+					"price": 204
+				}
+			}
+		},
+		{
+			"bloodseeker": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Thirst%20of%20Eztzhok%20Blade",
+					"price": 243
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Maw%20of%20Eztzhok",
+					"price": 42
+				},
+				"offhand": {
+					"link": "https://steamcommunity.com/market/listings/570/Thirst%20of%20Eztzhok%20-%20Off-Hand",
+					"price": 208
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Shield%20of%20the%20Primeval%20Predator",
+					"price": 2
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Tattoo%20of%20the%20Primeval%20Predator",
+					"price": 1
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Tribal%20Terror%20Bracers",
+					"price": 1
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Gallows%20Understudy%20Skirt",
+					"price": 1
+				}
+			}
+		},
+		{
+			"phantom_lancer": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Phantom%20Concord",
+					"price": 42
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Concord%20Reversion",
+					"price": 940
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Concord%20Dominion",
+					"price": 245
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Noble%20Warrior%20Armlet",
+					"price": 1
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Revered%20Wrap",
+					"price": 1
+				}
+			}
+		},
+		{
+			"earthshaker": {
+				"totem": {
+					"link": "https://steamcommunity.com/market/listings/570/Gravelmaw",
+					"price": 88
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Gambits%20of%20Nishai%20Helm",
+					"price": 74
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Bracers%20of%20the%20Cavern%20Luminar",
+					"price": 160
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Gambits%20of%20Nishai%20Belt",
+					"price": 22
+				}
+			}
+		},
+		{
+			"viper": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Malefic%20Drake%27s%20Hood",
+					"price": 59
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Sunken%20Snapper%20Wings",
+					"price": 5
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Toll%20of%20the%20Netherblight%20Tail",
+					"price": 2
+				}
+			}
+		},
+		{
+			"lifestealer": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Dark%20Maw%20Inhibitor",
+					"price": 9
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Profane%20Union",
+					"price": 42
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Golden%20Dread%20Requisition",
+					"price": 21
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Belt%20of%20the%20Transmuted%20Armaments",
+					"price": 1
+				}
+			}
+		},
+		{
+			"storm_spirit": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/The%20Lightning%20Orchid",
+					"price": 99
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Garb%20of%20the%20Corridan%20Maestro",
+					"price": 9
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Spring%20Lineage%20Pauldrons%20of%20the%20Storm%20Dragon%20Potente",
+					"price": 1
+				}
+			}
+		},
+		{
+			"medusa": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Twin%20Serpent%20Bow",
+					"price": 32
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Fate%20of%20Hydrophiinae",
+					"price": 7
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Circlet%20of%20Forsaken%20Beauty",
+					"price": 1
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Bracers%20of%20Forsaken%20Beauty",
+					"price": 1
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Daughters%20of%20Hydrophiinae",
+					"price": 94
+				}
+			}
+		},
+		{
+			"sand_king": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/The%20Barren%20Crown",
+					"price": 65
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Heroic%20Caustic%20Guard",
+					"price": 10
+				},
+				"legs": {
+					"link": "https://steamcommunity.com/market/listings/570/Legs%20of%20the%20Scouring%20Dunes",
+					"price": 3
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/The%20Barren%20Vector",
+					"price": 41
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Tail%20of%20the%20Scouring%20Dunes",
+					"price": 12
+				}
+			}
+		},
+		{
+			"enigma": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Patterns%20of%20the%20Pristine%20Mask",
+					"price": 9
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/World%20Chasm%20Artifact",
+					"price": 390
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Patterns%20of%20the%20Pristine%20Armor",
+					"price": 8
+				},
+				"units": {
+					"link": "https://steamcommunity.com/market/listings/570/Geodesic%20Eidolon",
+					"price": 161
+				}
+			}
+		},
+		{
+			"morphling": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Crown%20of%20Tears",
+					"price": 62
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Darktrench%20Stalker%20-%20Shoulder",
+					"price": 1061
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Darktrench%20Stalker%20-%20Back",
+					"price": 1551
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Darktrench%20Stalker%20-%20Arms",
+					"price": 109
+				},
+				"misc": {
+					"link": "https://steamcommunity.com/market/listings/570/Darktrench%20Stalker%20-%20Misc",
+					"price": 230
+				}
+			}
+		},
+		{
+			"windranger": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Peregrine%20Flight",
+					"price": 87
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Verdant%20Coif",
+					"price": 1
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Sylvan%20Cascade",
+					"price": 105
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Inscribed%20Mantle%20of%20the%20Roving%20Pathfinder",
+					"price": 7
+				},
+				"quiver": {
+					"link": "https://steamcommunity.com/market/listings/570/Quiver%20of%20Tranquility",
+					"price": 1
+				}
+			}
+		},
+		{
+			"abaddon": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Blade%20of%20the%20Demonic%20Vessel",
+					"price": 167
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Hood%20of%20the%20Demonic%20Vessel",
+					"price": 1
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Winged%20Shroud%20of%20Ruin",
+					"price": 1
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Pauldrons%20of%20the%20Mistral%20Fiend",
+					"price": 2
+				},
+				"mount": {
+					"link": "https://steamcommunity.com/market/listings/570/Grudge%20in%20the%20Mist",
+					"price": 1
+				}
+			}
+		},
+		{
+			"ancient_apparation": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Shatterblast%20Crown",
+					"price": 600
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Shatterblast%20Core",
+					"price": 18
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Shatterblast%20Rule",
+					"price": 52
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Tail%20of%20the%20Equilibrium",
+					"price": 38
+				}
+			}
+		},
+		{
+			"batrider": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Night%20Terrors%20Hat",
+					"price": 25
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Night%20Terrors%20Cape",
+					"price": 10
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Night%20Terrors%20Belt",
+					"price": 10
+				},
+				"mount": {
+					"link": "https://steamcommunity.com/market/listings/570/Ghastly%20Nocturne",
+					"price": 13
+				}
+			}
+		},
+		{
+			"beastmaster": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Primal%20Peacemaker",
+					"price": 6
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Chieftain%20Headdress%20of%20the%20West",
+					"price": 1
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Primal%20Paean",
+					"price": 128
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Genuine%20Chieftain%20Vambraces%20of%20the%20Chaos%20Wastes",
+					"price": 25
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Legacy%20of%20a%20Lost%20Age%20-%20Belt",
+					"price": 4
+				},
+				"hawk": {
+					"link": "https://steamcommunity.com/market/listings/570/Anunkasan",
+					"price": 1
+				},
+				"boar": {
+					"link": "https://steamcommunity.com/market/listings/570/Shrieking%20Razorback",
+					"price": 18
+				}
+			}
+		},
+		{
+			"bounty_hunter": {
+				"weapon": {
+						"link": "https://steamcommunity.com/market/listings/570/Tines%20of%20Tybara",
+						"price": 169
+				},
+				"head": {
+						"link": "https://steamcommunity.com/market/listings/570/Mask%20of%20Dark%20Ferocity",
+						"price": 10
+				},
+				"misc": {
+						"link": "https://steamcommunity.com/market/listings/570/Mark%20of%20the%20First%20Hunt",
+						"price": 15
+				},
+				"offhand": {
+						"link": "https://steamcommunity.com/market/listings/570/Bone%20Knife%20of%20the%20First%20Hunt",
+						"price": 1
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Hunter%27s%20Hoard?filter=hunters",
+					"price": 511
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Armor%20of%20the%20Hunter",
+					"price": 1
+				}
+			}
+		},
+		{
+			"centaur_warruner": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Axe%20of%20the%20Proven",
+					"price": 4
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Mohawk%20of%20the%20Proven",
+					"price": 9
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Iceplain%20Ravager%20Armor",
+					"price": 4
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Belt%20of%20Omexe?filter=omex",
+					"price": 1
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Iceplain%20Ravager%20Shield",
+					"price": 30
+				},
+				"back": {
+					"link": "https://steamcommunity.com/market/listings/570/Iceplain%20Ravager%20Horn",
+					"price": 112
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Sweep%20of%20the%20Steppe",
+					"price": 1
+				}
+			}
+		},
+		{
+			"chaos_knight": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Chaos%20Arbiter",
+					"price": 138
+				},
+				"shield": {
+					"link": "https://steamcommunity.com/market/listings/570/Chaos%20Fulcrum",
+					"price": 35
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Helm%20of%20the%20Burning%20Nightmare",
+					"price": 8
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Pauldrons%20of%20the%20Burning%20Nightmare",
+					"price": 8
+				},
+				"mount": {
+					"link": "https://steamcommunity.com/market/listings/570/Perdition",
+					"price": 5
+				}
+			}
+		},
+		{
+			"clockwerk": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Rabid%20Watchcog",
+					"price": 15
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Searchlight%20Helm%20of%20the%20Mechanised%20Pilgrim",
+					"price": 1
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Gear%20of%20the%20Keen%20Commander",
+					"price": 1
+				},
+				"rocket_flare": {
+					"link": "https://steamcommunity.com/market/listings/570/Paraflare%20Cannon",
+					"price": 200
+				},
+				"power_cogs": {
+					"link": "https://steamcommunity.com/market/listings/570/Cog%20of%20the%20Mechanised%20Pilgrim",
+					"price": 1
+				}
+			}
+		},
+		{
+			"dark_willow": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Hearts%20of%20Misrule",
+					"price": 27
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Armor%20of%20the%20Winter%20Rose",
+					"price": 35
+				},
+				"wings": {
+					"link": "https://steamcommunity.com/market/listings/570/Wings%20of%20the%20Winter%20Rose",
+					"price": 45
+				},
+				"offhand": {
+					"link": "https://steamcommunity.com/market/listings/570/Gloombob",
+					"price": 11
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/The%20Sunbreeze%20Birthright",
+					"price": 306
+				}
+			}
+		},
+		{
+			"doom": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Soul%20Shredder",
+					"price": 1000
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Whispers%20of%20the%20Damned%20Head",
+					"price": 39
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Zeal%20of%20Omoz%20Arkosh",
+					"price": 19
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Whispers%20of%20the%20Damned%20Pauldrons",
+					"price": 24
+				},
+				"wings": {
+					"link": "https://steamcommunity.com/market/listings/570/Whispers%20of%20the%20Damned%20Wings",
+					"price": 65
+				},
+				"belt": {
+					"link": "https://steamcommunity.com/market/listings/570/Whispers%20of%20the%20Damned%20Belt",
+					"price": 6
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Whispers%20of%20the%20Damned%20Tail",
+					"price": 5
+				}
+			}
+		},
+		{
+			"jakiro": {
+				"right_head": {
+					"link": "https://steamcommunity.com/market/listings/570/Pyrexaec%20Floe",
+					"price": 636
+				},
+				"left_head": {
+					"link": "https://steamcommunity.com/market/listings/570/Pyrexaec%20Flux",
+					"price": 50
+				},
+				"wings": {
+					"link": "https://steamcommunity.com/market/listings/570/Pyrexaec%20Forge",
+					"price": 42
+				},
+				"tail": {
+					"link": "https://steamcommunity.com/market/listings/570/Tail%20of%20Elder%20Convergence",
+					"price": 112
+				}
+			}
+		},
+		{
+			"phoenix": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Solar%20Forge",
+					"price": 207
+				},
+				"wings": {
+					"link": "https://steamcommunity.com/market/listings/570/Solar%20Gyre",
+					"price": 250
+				},
+				"supernova": {
+					"link": "https://steamcommunity.com/market/listings/570/Honor%20of%20the%20Temple%20of%20the%20Fallen%20Sun",
+					"price": 200
+				}
+			}
+		},
+		{
+			"treant_protector": {
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Stuntwood%20Symbiont",
+					"price": 9
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Stuntwood%20Sanctuary",
+					"price": 31
+				},
+				"arms": {
+					"link": "https://steamcommunity.com/market/listings/570/Moonshard%20Claws",
+					"price": 1
+				},
+				"legs": {
+					"link": "https://steamcommunity.com/market/listings/570/Moonshard%20Roots",
+					"price": 1
+				}
+			}
+		},
+		{
+			"troll_warlord": {
+				"weapon": {
+					"link": "https://steamcommunity.com/market/listings/570/Bitter%20Lineage",
+					"price": 234
+				},
+				"head": {
+					"link": "https://steamcommunity.com/market/listings/570/Conspicuous%20Culprit%20Mohawk",
+					"price": 16
+				},
+				"armor": {
+					"link": "https://steamcommunity.com/market/listings/570/Conspicuous%20Culprit%20Armor",
+					"price": 18
+				},
+				"shoulder": {
+					"link": "https://steamcommunity.com/market/listings/570/Scale%20of%20Bitter%20Spoil",
+					"price": 11
+				}
+			}	  
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "heroes": 
+        "invoker": {
+            "head": {
+                "link": "https://steamcommunity.com/market/listings/570/Magus%20Apex",
+                "price": 157
+            },
+            "shoulder": {
+                "link": "https://steamcommunity.com/market/listings/570/Mantle%20of%20the%20Blackguard%20Magus",
+                "price": 25
+            },
+            "back": {
+                "link": "https://steamcommunity.com/market/listings/570/Cabalist%20of%20Dark%20Magic%20Set?filter=The%20the",
+                "price": 4
+            },
+            "arms": {
+                "link": "https://steamcommunity.com/market/listings/570/Bracers%20of%20Glorious%20Inspiration",
+                "price": 4
+            },
+            "forge": {
+                "link": "https://steamcommunity.com/market/listings/570/Familiars%20of%20Glorious%20Inspiration",
+                "price": 62
+            },
+            "belt": {
+                "link": "https://steamcommunity.com/market/listings/570/Vestments%20of%20the%20Blackguard%20Magus",
+                "price": 40
+            }
+        },
+        "templar_assasin": {
+            "weapon": {
+                "link": "https://steamcommunity.com/market/listings/570/Focal%20Resonance",
+                "price": 400
+            },
+            "head": {
+                "link": "https://steamcommunity.com/market/listings/570/Dreaded%20Bravo%27s%20Guise?filter=Bravo%60s",
+                "price": 1
+            },
+            "shoulder": {
+                "link": "https://steamcommunity.com/market/listings/570/Mantle%20of%20the%20Whispered%20Bond",
+                "price": 128
+            },
+            "armor": {
+                "link": "https://steamcommunity.com/market/listings/570/Redmoon%20Assassin%27s%20Secret%20Armor?filter=Assassin%60s",
+                "price": 1
+            }
+        }
+        
+}

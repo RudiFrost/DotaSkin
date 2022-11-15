@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="sets">
+    <script>
+    jQuery(document).ready(function($) {
+        $("img").hover(function() {
+            var src = this.src;
+            this.src = $(this).data("img");
+            $(this).data("img", src);
+        });
+    });
+    </script>
+    <table>
+       <td><a href="{{ url_for('invoker_set') }}"><img src="static/gifs/invoker_awa.png" data-img="static/gifs/invoker.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="{{ url_for('bloodseeker_set') }}"><img src="static/gifs/bloodseeker_ava.png" data-img="static/gifs/bloodseeker.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="{{ url_for('earthshaker_set') }}"><img src="static/gifs/earthshaker_awa.png" data-img="static/gifs/earthshaker.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="{{ url_for('enigma_set') }}"><img src="static/gifs/enigma_awa.png" data-img="static/gifs/enigma.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="{{ url_for('phantom_lancer_set') }}"><img src="static/gifs/phantom_lancer_awa.png" data-img="static/gifs/phantom_lancer.gif" width="300" height="300" alt=""></a></td>
+    </table>
+    <table>
+        <td><a href="/morphling"><img src="static/gifs/morphling_awa.png" data-img="static/gifs/morphling.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/sand_king"><img src="static/gifs/sand_king_awa.png" data-img="static/gifs/sand_king.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/visage"><img src="static/gifs/visage_awa.png" data-img="static/gifs/visage.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/puck"><img src="static/gifs/puck_awa.png" data-img="static/gifs/puck.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/storm_spirit"><img src="static/gifs/storm_spirit_awa.png" data-img="static/gifs/storm_spirit.gif" width="300" height="300" alt=""></a></td>
+    </table>
+    <table>
+        <td><a href="/medusa"><img src="static/gifs/medusa_awa.png" data-img="static/gifs/medusa.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/templar"><img src="static/gifs/templar_awa.png" data-img="static/gifs/templar.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/windranger"><img src="static/gifs/windranger_awa.png" data-img="static/gifs/windranger.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/viper"><img src="static/gifs/viper_awa.png" data-img="static/gifs/viper.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/lifestealer"><img src="static/gifs/lifestealer_awa.png" data-img="static/gifs/lifestealer.gif" width="300" height="300" alt=""></a></td>
+    </table>
+    <table>
+        <td><a href="/doom"><img src="static/gifs/doom_awa.png" data-img="static/gifs/doom.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/abaddon"><img src="static/gifs/abaddon_ava.png" data-img="static/gifs/abaddon.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/ancient_apparation"><img src="static/gifs/ancient_apparation_ava.png" data-img="static/gifs/ancient_apparation.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/batridder"><img src="static/gifs/batrider_ava.png" data-img="static/gifs/batridder.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/beastmaster"><img src="static/gifs/beastmaster_ava.png" data-img="static/gifs/beastmaster.gif" width="300" height="300" alt=""></a></td>
+    </table>
+    <table>
+        <td><a href="/bounty_hunter"><img src="static/gifs/bounty_hunter_ava.png" data-img="static/gifs/bounty_hunter.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/centaur_warruner"><img src="static/gifs/centaur_warruner_ava.png" data-img="static/gifs/centaur_warruner.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/chaos_knight"><img src="static/gifs/chaos_knight_ava.png" data-img="static/gifs/chaos_knight.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/clockwerk"><img src="static/gifs/clockwerk_ava.png" data-img="static/gifs/clockwerk.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/dark_willow"><img src="static/gifs/dark_willow_ava.png" data-img="static/gifs/dark_willow.gif" width="300" height="300" alt=""></a></td>
+    </table>
+    <table>
+        <td><a href="/jakiro"><img src="static/gifs/jakiro_ava.png" data-img="static/gifs/jakiro.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/phoenix"><img src="static/gifs/phoenix_ava.png" data-img="static/gifs/phoenix.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/treant_protector"><img src="static/gifs/treant_protector_ava.png" data-img="static/gifs/treant_protector.gif" width="300" height="300" alt=""></a></td>
+        <td><a href="/troll_warlord"><img src="static/gifs/troll_warlord_ava.png" data-img="static/gifs/troll_warlord.gif" width="300" height="300" alt=""></a></td>
+    </table>
+
+</div>
+{% endblock %}

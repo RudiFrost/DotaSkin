@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-picture">
+    <script>
+        jQuery(document).ready(function($) {
+            $("img").hover(function() {
+                var src = this.src;
+                this.src = $(this).data("img");
+                $(this).data("img", src);
+            });
+        });
+    </script>
+    <img src="static/gifs/enigma_awa.png" data-img="static/gifs/enigma.gif" class="hero" width="300" height="700" alt="">
+</div>
+{% endblock %}
