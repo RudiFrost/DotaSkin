@@ -124,36 +124,15 @@ body {
     top: 0px;
 }
 
-.input_label_email{
-    text-align: center;
-    padding-right: 130px;
+
+.input_label{
     margin: 0px;
-}
-.input_label_password{
-    text-align: center;
-    padding-right: 100px;
-    margin: 0px;
+    margin-left: 905px;
 }
 
-.input_label_username{
-    text-align: center;
-    padding-right: 100px;
-    margin: 0px;
-}
-.input_label_repassword{
-    text-align: center;
-    padding-right: 45px;
-    margin: 0px;
-}
-.input_label_about{
-    text-align: center;
-    padding-right: 60px;
-    margin: 0px;
-}
 
 .remember_me{
-    text-align: center;
-    padding-right: 50px;
+    margin-left: 905px;
 }
 
 .align_sets{

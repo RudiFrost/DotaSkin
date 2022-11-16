@@ -4,7 +4,7 @@
 <h1 class="auth"><font color="#ffffff">Registration</font></h1>
 <form action="" method="post">
     {{ form.hidden_tag() }}
-    <p class="input_label_username">
+    <p class="input_label">
         <font color="#ffffff">{{ form.name.label }}</font>
     </p>
     <p class="input_auth">
@@ -16,7 +16,7 @@
     </p>
     {% endfor %}
     </p>
-    <p class="input_label_email">
+    <p class="input_label">
         <font color="#ffffff">{{ form.email.label }}</font>
     </p>
     <p class="input_auth">
@@ -28,7 +28,7 @@
     </p>
     {% endfor %}
     </p>
-    <p class="input_label_password">
+    <p class="input_label">
         <font color="#ffffff">{{ form.password.label }}</font>
     </p>
     <p class="input_auth">
@@ -40,7 +40,7 @@
     </p>
     {% endfor %}
     </p>
-    <p class="input_label_repassword">
+    <p class="input_label">
         <font color="#ffffff">{{ form.password_again.label }}</font>
     </p>
     <p class="input_auth">
@@ -52,7 +52,7 @@
     </p>
     {% endfor %}
     </p>
-    <p class="input_label_about">
+    <p class="input_label">
         <font color="#ffffff">{{ form.about.label }}</font>
     </p>
     <p class="input_auth">
