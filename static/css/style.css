@@ -75,9 +75,13 @@ body {
         color: #c2c2c4 !important;
     }
     .btn-primary, .btn-primary:active, .btn-primary:visited {
+        cursor:pointer;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
         color: #c2c2c4 !important;
-        background-color: #26272c !important;
-        border-color: #26272c !important;
+        background-color: #000000 !important;
+        border-color: #000000 !important;
     }
     .btn-primary:hover {
         color: #ffffff !important;
@@ -179,3 +183,28 @@ body {
     font-family: helvetica, arial, sans-serif;
 }
 
+.profile{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 500px;
+}
+
+.btn{
+    display:inline-block;
+    font-weight:400;
+    color:#212529;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    background-color:transparent;
+    border:1px solid transparent;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:.25rem;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}

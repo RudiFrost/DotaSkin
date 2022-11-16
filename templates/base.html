@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>All Sets</title>
@@ -13,11 +12,11 @@
     <a class="main_buttons" href="{{ url_for('money') }}" style="float:right"><img src="static/money/img_1.png" data-img="static/money/img_1.png" width="600" height="300"></a>
     <h1 class="label">THE BEST DOTA SETS</h1>
     <nav>
-        <a class="main_buttons" href="/">Sets</a>
-        <a class="main_buttons" href="/about">About</a>
-        <a class="main_buttons" href="/profile">Profile</a>
-        <a class="main_buttons" href="{{ url_for('login') }}">Login</a>
-        <a class="main_buttons" href="{{ url_for('register') }}">Register</a>
+        <a class="main_buttons btn btn-primary" href="/">Sets</a>
+        <a class="main_buttons btn btn-primary" href="/about">About</a>
+        <a class="main_buttons btn btn-primary" href="/profile">Profile</a>
+        <a class="main_buttons btn btn-primary" href="{{ url_for('login') }}">Login</a>
+        <a class="main_buttons btn btn-primary" href="{{ url_for('register') }}">Register</a>
     </nav>
 </header>
 <body>

@@ -2,16 +2,13 @@ from flask import Flask
 from flask import make_response, jsonify
 from flask import render_template, redirect
 from flask_login import LoginManager, login_user, login_required, logout_user
-from flask_login import current_user
 from flask_restful import Api
 from flask_wtf import FlaskForm
 from wtforms import PasswordField, BooleanField, SubmitField
 from wtforms.fields.html5 import EmailField
 from wtforms.validators import DataRequired
 
-import news_resources
-from data import db_session, news_api
-from data.news import News
+from data import db_session
 from data.users import User
 from forms.user import RegisterForm
 
@@ -36,13 +33,22 @@ def not_found(error):
 
 @app.route('/')
 def index():
-
     return render_template("index.html")
+
+
+@app.route('/profile')
+def profile():
+    return render_template("profile.html")
 
 
 @app.route('/about')
 def about_site():
     return render_template('about.html')
+
+
+@app.route('/change_password')
+def change_password():
+    return render_template('profile.html')
 
 
 @app.route('/invoker')
@@ -54,17 +60,21 @@ def invoker_set():
 def bloodseeker_set():
     return render_template('bloodseeker.html')
 
+
 @app.route('/earthshaker')
 def earthshaker_set():
     return render_template('earthshaker.html')
+
 
 @app.route('/enigma')
 def enigma_set():
     return render_template('enigma.html')
 
+
 @app.route('/phantom_lancer')
 def phantom_lancer_set():
     return render_template('phantom_lancer.html')
+
 
 @app.route('/')
 def money():
